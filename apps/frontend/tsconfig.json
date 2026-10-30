@@ -1,0 +1,5 @@
+{
+  "extends": "@trello/typescript-config/react.json",
+  "include": ["src"],
+  "exclude": ["src/**/*.test.ts"]
+}

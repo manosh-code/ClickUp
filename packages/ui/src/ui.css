@@ -1,0 +1,89 @@
+.ui-btn {
+  appearance: none;
+  border: 0;
+  border-radius: 8px;
+  cursor: pointer;
+  font: inherit;
+  font-weight: 600;
+  line-height: 1;
+  padding: 10px 14px;
+}
+
+.ui-btn:disabled {
+  cursor: not-allowed;
+  opacity: 0.55;
+}
+
+.ui-btn-primary {
+  background: #c4552a;
+  color: #fffaf6;
+}
+
+.ui-btn-primary:hover:not(:disabled) {
+  background: #b04822;
+}
+
+.ui-btn-ghost {
+  background: transparent;
+  color: inherit;
+}
+
+.ui-btn-ghost:hover:not(:disabled) {
+  background: rgb(28 25 21 / 8%);
+}
+
+.ui-btn-danger {
+  background: #9d2c2c;
+  color: #fff8f6;
+}
+
+.ui-btn-danger:hover:not(:disabled) {
+  background: #861f1f;
+}
+
+.ui-field {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.ui-field input,
+.ui-field textarea {
+  border: 1px solid #e4dcd0;
+  border-radius: 8px;
+  color: #1c1915;
+  font: inherit;
+  font-weight: 400;
+  padding: 10px 12px;
+  resize: vertical;
+  width: 100%;
+}
+
+.ui-field input:focus,
+.ui-field textarea:focus {
+  border-color: #c4552a;
+  outline: 2px solid rgb(196 85 42 / 25%);
+}
+
+.ui-modal-backdrop {
+  align-items: flex-start;
+  background: rgb(28 25 21 / 46%);
+  display: flex;
+  inset: 0;
+  justify-content: center;
+  padding: 8vh 20px 20px;
+  position: fixed;
+  z-index: 40;
+}
+
+.ui-modal {
+  background: #fffdf9;
+  border-radius: 14px;
+  box-shadow: 0 24px 60px rgb(28 25 21 / 28%);
+  color: #1c1915;
+  max-width: 560px;
+  padding: 22px;
+  width: min(560px, 100%);
+}
