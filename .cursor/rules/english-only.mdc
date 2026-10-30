@@ -1,0 +1,10 @@
+---
+description: Use English for every reply, including terminal notes
+alwaysApply: true
+---
+
+# English only
+
+Write every user-facing reply in English. That includes explanations around shell commands, status updates, tables, and error notes.
+
+Command output may stay as the tool printed it. Do not translate those notes into another language.
